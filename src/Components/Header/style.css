@@ -1,0 +1,99 @@
+header {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.055);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo-box {
+    width: 140px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo-box .logo-img {
+    width: 100%;
+    height: auto;
+}
+
+.logo-box span:nth-child(1) {
+    position: absolute;
+    bottom: 15px !important;
+    left: 160px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.logo-box span:nth-child(2) {
+    position: absolute;
+    top: 18px;
+    left: 110px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.navbar ul{
+    display: flex;
+    position: relative;
+}
+.navbar ul li{
+    list-style: none;
+    color: #fff;
+    margin-right: 30px;
+    transition: .5s;
+}
+.navbar ul li:hover{
+    color: #0072ff;
+    transition: .5s;
+    user-select: none;
+}
+.navbar ul li:nth-child(1):hover::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: -2px;
+    height: 2px;
+    width: 47px;
+    background-color: #0072ff;
+    transition: .5s;
+}
+.navbar ul li:nth-child(2):hover::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 73px;
+    height: 2px;
+    width: 47px;
+    background-color: #0072ff;
+    transition: .5s;
+}
+.navbar ul li:nth-child(3):hover::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 149px;
+    height: 2px;
+    width: 65px;
+    background-color: #0072ff;
+}
+.navbar ul li:nth-child(4):hover::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 243px;
+    height: 2px;
+    width: 62px;
+    background-color: #0072ff;
+}
