@@ -10,11 +10,12 @@ const Cursor = () => {
             outerScale={2}
             outerAlpha={0}
             showSystemCursor
+            
             innerStyle={{
-                backgroundColor: '#0072ff'
+                backgroundColor: '#0072ff',
             }}
             outerStyle={{
-                border: '1.5px solid #0072ff'
+                border: '1.5px solid #0072ff',
             }}
             clickables={[
         'a',
@@ -28,7 +29,6 @@ const Cursor = () => {
         'textarea',
         'button',
         '.link',
-        'li'
     ]}
         />
     )
