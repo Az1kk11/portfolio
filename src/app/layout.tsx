@@ -21,7 +21,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="box">
           <Cursor/>
           <div className="wrapper">
             <span></span>
@@ -37,7 +36,6 @@ export default function RootLayout({
           </div>
           <Header />
           {children}
-        </div>
       </body>
     </html>
   );

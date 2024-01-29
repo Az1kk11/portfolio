@@ -82,6 +82,9 @@ header {
   transition: 0.5s;
   user-select: none;
 }
+.navbar ul .active{
+  color: #0072ff !important;
+}
 /* .navbar ul li:nth-child(1):hover::after {
   content: "";
   position: absolute;

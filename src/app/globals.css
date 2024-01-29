@@ -11,10 +11,13 @@
   margin: 0 auto;
 }
 
+a{
+  text-decoration: none;
+  color: unset;
+}
+
 body {
   background: #111;
-}
-.box{
   overflow: hidden;
 }
 .wrapper span {
