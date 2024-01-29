@@ -133,6 +133,9 @@ body {
 }
 
 @media (max-width: 740px) {
+  .home{
+    height: 70vh;
+  }
   .home h2{
     font-size: 35px;
   }
