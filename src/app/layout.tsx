@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
+import 'remixicon/fonts/remixicon.css'
 import Header from "@/Components/Header";
 import Cursor from "@/Components/Cursor";
 
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div>
+        <div className="box">
           <Cursor/>
           <div className="wrapper">
             <span></span>

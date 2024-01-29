@@ -14,7 +14,9 @@
 body {
   background: #111;
 }
-
+.box{
+  overflow: hidden;
+}
 .wrapper span {
   position: fixed;
   bottom: -180px;
@@ -96,6 +98,7 @@ body {
   flex-direction: column;
   height: 80vh;
   width: 100%;
+  overflow: hidden;
 }
 .home h2{
   color: #fff;
@@ -111,6 +114,7 @@ body {
   color: #fff;
   font-size: 35px;
   margin-top: 10px;
+  letter-spacing: 1px;
 }
 .home button{
   padding: 12px 45px;
@@ -126,4 +130,43 @@ body {
   background: #fff;
   color: #0072ff;
   transition: .5s;
+}
+
+@media (max-width: 740px) {
+  .home h2{
+    font-size: 35px;
+  }
+  .home h3{
+    font-size: 25px;
+  }
+  .home button{
+    padding: 10px 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home h2{
+    font-size: 28px;
+  }
+  .home h3{
+    font-size: 20px;
+  }
+  .home button{
+    padding: 8px 25px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .home h2{
+    font-size: 22px;
+  }
+  .home h3{
+    font-size: 18px;
+  }
+  .home button{
+    padding: 6px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
 }
